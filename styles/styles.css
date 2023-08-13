@@ -7,19 +7,43 @@ html{
     font-size: 70px;
     font-weight: 800;
     text-align: center;
-    color:#393424;
+    color:#fff;
+    background-color: #62ab37;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.menu-container{
+    width: 100%;
+    margin: 0 auto;
 }
 
 .recipes-list{
     font-size: 20px;
-    color: #62ab37;
-    text-align: center;
+    font-weight: 800;
+    color: #000;
+    border-radius: 8px;
     list-style: none;
+    padding: 8px;
+    width: max-content;
+    margin: 0 auto;
+    background-color: #62ab37;
+}
+
+li{
+    display: inline-block;
+    padding: 8px;
 }
 
 li>a{
     text-decoration: none;
-    text-align: center;
+}
+li>a:link{
+    color: white;
+}
+
+li>a:visited{
+    color: white;
 }
 
 /* Recipes */
